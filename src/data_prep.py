@@ -73,8 +73,16 @@ def prepare(data_dir: str, sampling_rate: int = 100):
     agg_df = agg_df[agg_df.diagnostic == 1]
 
     df["diagnostic_superclass"] = df.scp_codes.apply(
-        lambda codes: aggregate_diagnostic_superclass(codes, agg_df)
-    )
+    lambda codes: aggregate_diagnostic_superclass(codes, agg_df)
+)
+
+    # Remove records that have no diagnostic superclass label.
+    # These records are not negative examples; they are simply unlabeled
+    # for the five-class diagnostic-superclass task.
+    before = len(df)
+    df = df[df.diagnostic_superclass.apply(len) > 0]
+    print(f"Dropped {before - len(df)} records with no diagnostic superclass label")
+    print(f"Remaining records: {len(df)}")
 
     # PTB-XL ships with a recommended 10-fold split for reproducible
     # benchmarking -- fold 10 is the standard held-out test fold.
