@@ -1,0 +1,46 @@
+# ---- Data (never commit — large + PhysioNet license terms) ----
+data/ptbxl/
+data/ICBEB/
+*.dat
+*.hea
+*.npy
+*.pkl
+
+# ---- Vector DB / embeddings (regenerable from kb/raw_guidelines/) ----
+vectordb/
+kb/embeddings/*.npy
+kb/embeddings/*.pkl
+chroma_db/
+
+# ---- Model checkpoints (large binary files — see docs/GIT_WORKFLOW.md) ----
+*.pt
+*.pth
+*.ckpt
+best_model.pt
+results/**/*.pt
+
+# ---- Secrets / config with keys ----
+.env
+*.key
+configs/secrets.yaml
+
+# ---- Python ----
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+.vscode/
+.idea/
+
+# ---- Logs / experiment tracking ----
+runs/
+logs/
+*.log
+
+# ---- Clinician-provided data (PHI risk — never commit) ----
+eval/clinician/raw_annotations/
