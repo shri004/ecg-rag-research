@@ -62,7 +62,11 @@ def aggregate_diagnostic_superclass(scp_codes: dict, agg_df: pd.DataFrame) -> li
     return list(classes)
 
 
-def prepare(data_dir: str, sampling_rate: int = 100):
+def prepare(data_dir: str, sampling_rate: int = 100, out_dir: str = None):
+    """out_dir defaults to <data_dir>/processed, but should be set
+    explicitly to a WRITABLE path when data_dir is read-only (e.g. a
+    Kaggle-mounted dataset under /kaggle/input/, or a Colab Drive mount
+    with restricted permissions)."""
     meta_path = os.path.join(data_dir, "ptbxl_database.csv")
     scp_path = os.path.join(data_dir, "scp_statements.csv")
 
@@ -73,12 +77,13 @@ def prepare(data_dir: str, sampling_rate: int = 100):
     agg_df = agg_df[agg_df.diagnostic == 1]
 
     df["diagnostic_superclass"] = df.scp_codes.apply(
-    lambda codes: aggregate_diagnostic_superclass(codes, agg_df)
-)
+        lambda codes: aggregate_diagnostic_superclass(codes, agg_df)
+    )
 
-    # Remove records that have no diagnostic superclass label.
-    # These records are not negative examples; they are simply unlabeled
-    # for the five-class diagnostic-superclass task.
+    # Verified in project notes: records with no diagnostic-class statement
+    # (rhythm/form-only annotations) are excluded from this task -- leaving
+    # them in would train the model to predict "no diagnostic class" for
+    # cases that are actually just unlabeled for this specific task.
     before = len(df)
     df = df[df.diagnostic_superclass.apply(len) > 0]
     print(f"Dropped {before - len(df)} records with no diagnostic superclass label")
@@ -97,7 +102,8 @@ def prepare(data_dir: str, sampling_rate: int = 100):
         "X_test": X[test_mask.values], "y_test": df[test_mask].diagnostic_superclass,
     }
 
-    out_dir = os.path.join(data_dir, "processed")
+    if out_dir is None:
+        out_dir = os.path.join(data_dir, "processed")
     os.makedirs(out_dir, exist_ok=True)
     np.save(os.path.join(out_dir, "X_train.npy"), splits["X_train"])
     np.save(os.path.join(out_dir, "X_val.npy"), splits["X_val"])
@@ -113,6 +119,11 @@ def prepare(data_dir: str, sampling_rate: int = 100):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-dir", required=True)
+    parser.add_argument("--out-dir", default=None,
+                         help="Where to write processed/ output. Defaults to "
+                              "<data-dir>/processed -- set this explicitly to "
+                              "a writable path if --data-dir is read-only "
+                              "(e.g. a Kaggle-mounted dataset).")
     parser.add_argument("--download", action="store_true")
     parser.add_argument("--sampling-rate", type=int, default=100, choices=[100, 500])
     args = parser.parse_args()
@@ -120,4 +131,4 @@ if __name__ == "__main__":
     if args.download:
         download_ptbxl(args.data_dir)
 
-    prepare(args.data_dir, args.sampling_rate)
+    prepare(args.data_dir, args.sampling_rate, args.out_dir)
