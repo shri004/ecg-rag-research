@@ -1,0 +1,32 @@
+﻿{
+  "dataset": "PTB-XL",
+  "task": "Diagnostic superclass multi-label classification",
+  "sampling_rate_hz": 100,
+  "records_after_filtering": 21430,
+  "records_dropped_missing_diagnostic_superclass": 407,
+  "split": {
+    "train": "PTB-XL folds 1-8",
+    "validation": "PTB-XL fold 9",
+    "test": "PTB-XL fold 10"
+  },
+  "records": {
+    "train": 17111,
+    "validation": 2156,
+    "test": 2163
+  },
+  "model": "ResNet1D-Wang",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "epochs": 30,
+  "best_validation_epoch": 13,
+  "best_validation_macro_auroc": 0.9284,
+  "test_metrics": {
+    "macro_auroc": 0.9276,
+    "macro_f1": 0.7186,
+    "micro_f1": 0.7712,
+    "macro_precision": 0.8174,
+    "macro_recall": 0.6636
+  },
+  "status": "Module 1 complete"
+}
