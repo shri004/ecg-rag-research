@@ -1,0 +1,147 @@
+{
+  "MI": [
+    {
+      "rank": 1,
+      "query": "What ECG findings are associated with myocardial infarction?",
+      "source": "ecg-book-general.pdf",
+      "page": 138,
+      "superclass": "GENERAL",
+      "distance": 0.5981839895248413,
+      "text": "6 The ECG in patients with constant chest pain dissection affects the coronary artery ostia, it troponin level may also rise in other conditions, can cause myocardial ischaemia. which may also be associated with chest pain (Box 6.2). It is essential to remember that the plasma troponin level may not rise for up to THE ECG IN PATIENTS WITH 12h after the onset of chest pain due to a CONSTANT CHEST PAIN myocardial infarction. Thus the ECG is an essential tool in the THE ECG IN ACUTE CORONARY diagnosis of an acute coronary syndrome. SYNDROMES Importantly, it also distinguishes between two categories of myocardial infarction whose ‘Acute coronary syndrome’ is a term that covers management is different. The first is infarction a spectrum of clinical conditions caused by associated with ST segment elevation, known as the rupture of atheromatous plaque within a ‘ST segment elevation myocardial infarction’ or coronary artery. On the exposed core of the ‘STEMI’, and the second is ‘non-ST segment plaque, a thrombus forms, and this can cause elevation myocardial infarction’ or ‘NSTEMI’. total or partial occlusion of the artery. The Differentiation is important because a STEMI clinical syndrome ranges from angina at rest requires immediate treatment by thrombolysis (unstable angina) to transmural myocardial or percutaneous intervention (PCI – i.e. infarction, and some definitions of acute angioplasty and probably stenting), although coronary syndrome also include sudden death after 6h the benefit of this treatment is largely due to coronary occlusion. The diagnosis of lost. An NSTEMI may also require PCI but with acute coronary syndrome is based on the clinical presentation (including a previous history of coronary disease), ECG changes, and biochemical markers, principally troponin. If a patient has chest pain and there is ECG Box 6.2 Common causes of plasma troponin level evidence of myocardial ischaemia"
+    },
+    {
+      "rank": 2,
+      "query": "What ECG findings are associated with myocardial infarction?",
+      "source": "ecg-book-general.pdf",
+      "page": 139,
+      "superclass": "GENERAL",
+      "distance": 0.7189738154411316,
+      "text": "The ECG in patients with chest pain or breathlessness considerably less urgency, and the patient is of ST segment elevation in at least two initially treated with some form of heparin, contiguous precordial leads. The diagnosis of anti-platelet agents and a beta-blocker. STEMI can also be accepted if there is left During the first few hours after the onset of bundle branch block which is known to be new. chest pain due to myocardial infarction the Prompt treatment by PCI or thrombolysis ECG can remain apparently normal, and for may prevent myocardial damage, so that Q this reason ECGs should be recorded waves do not develop. Otherwise, after a repeatedly in a patient with chest pain that variable time, usually within a day or so, the ST could be due to cardiac ischaemia, but whose segments return to the baseline, the T waves in ECG is nondiagnostic. the affected leads become inverted, and Q waves develop (see p.91). Once Q waves and inverted UNSTABLE ANGINA T waves have developed following infarction, these ECG changes are usually permanent. If In unstable angina there is ST segment anterior ST segment elevation persists, a left depression while the patient has pain (Fig. 6.1). ventricular aneurysm should be suspected. Once the pain has resolved the ECG returns to Figures 6.2–6.5 show ECGs from different normal, or to its previous state if the patient patients with anterior infarctions, at increasing has had a myocardial infarction in the past. times from the onset of symptoms. An old anterior infarction can also be STEMI diagnosed from an ECG that shows a loss of R In STEMI the ST segments rise in the ECG wave development in the anterior leads without leads corresponding to the part of the heart the presence of Q waves (Fig. 6.6). These that"
+    },
+    {
+      "rank": 3,
+      "query": "What ECG findings are associated with myocardial infarction?",
+      "source": "ecg-book-general.pdf",
+      "page": 12,
+      "superclass": "GENERAL",
+      "distance": 0.721747636795044,
+      "text": "1 What the ECG is about What to expect from the ECG 3 WHAT TO EXPECT FROM THE ECG The electricity of the heart 4 Clinical diagnosis depends mainly on a patient’s The different parts of the ECG 4 history, and to a lesser extent on the physical The ECG – electrical pictures 9 examination. The ECG can provide evidence to support a diagnosis, and in some cases it is The shape of the QRS complex 11 crucial for patient management. It is, however, Making a recording – practical points 19 important to see the ECG as a tool, and not as an end in itself. How to report an ECG 32 The ECG is essential for the diagnosis, and therefore the management, of abnormal cardiac rhythms. It helps with the diagnosis of the cause of chest pain, and the proper use of early ‘ECG’ stands for electrocardiogram, or intervention in myocardial infarction depends electrocardiograph. In some countries, the upon it. It can help with the diagnosis of the abbreviation used is ‘EKG’. Remember: cause of dizziness, syncope and breathlessness. ∑ï By the time you have finished this book, With practice, interpreting the ECG is a you should be able to say and mean ‘The matter of pattern recognition. However, the ECG is easy to understand’. ECG can be analysed from first principles if a ∑ï Most abnormalities of the ECG are few simple rules and basic facts are remembered. amenable to reason. This chapter is about these rules and facts. 3"
+    }
+  ],
+  "STTC": [
+    {
+      "rank": 1,
+      "query": "What ECG changes are associated with ST segment and T wave abnormalities?",
+      "source": "ecg-book-general.pdf",
+      "page": 132,
+      "superclass": "GENERAL",
+      "distance": 0.5058237314224243,
+      "text": "5 The ST segment Fig. 5.17 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Normal ECG with nonspecific ST segment changes Note ∑ Sinus rhythm, rate 85/min ∑ Normal axis ∑ Normal QRS complexes ∑ In leads II, III, VF and V –V there is slight downward-sloping ST segment depression 5 6 ∑ Normal T waves 123"
+    },
+    {
+      "rank": 2,
+      "query": "What ECG changes are associated with ST segment and T wave abnormalities?",
+      "source": "ecg-book-general.pdf",
+      "page": 105,
+      "superclass": "GENERAL",
+      "distance": 0.5244470834732056,
+      "text": "Abnormalities of P waves, QRS complexes and T waves it may be elevated (Fig. 4.13a) or depressed ABNORMALITIES OF THE ST SEGMENT (Fig. 4.13b). Elevation of the ST segment is an indication The ST segment lies between the QRS complex and the T wave (Fig. 4.12). It should be of acute myocardial injury, usually due either to ‘isoelectric’ – that is, at the same level as the part a recent infarction or to pericarditis. The leads between the T wave and the next P wave – but in which the elevation occurs indicate the part Fig. 4.12 The ST segment ST segment Fig. 4.13 (a) Elevated ST segment. (b) Depressed ST segment (a) (b) 96"
+    },
+    {
+      "rank": 3,
+      "query": "What ECG changes are associated with ST segment and T wave abnormalities?",
+      "source": "ecg-book-general.pdf",
+      "page": 107,
+      "superclass": "GENERAL",
+      "distance": 0.5353114604949951,
+      "text": "bundle (Fig. 4.15). Subsequently, Q waves appear, and branch block is usually associated with an the T waves become inverted. The ST segment abnormal path of repolarization. Therefore, returns to the baseline, the whole process taking inverted T waves associated with QRS a variable time but usually within the range complexes which have a duration of 160ms or 24–48h. T wave inversion is often permanent. more have no significance in themselves (see Infarctions causing this pattern of ECG changes Figs 2.15 and 2.16). are called ‘ST segment elevation myocardial infarctions’ (STEMIs) (see p.130). 98"
+    }
+  ],
+  "CD": [
+    {
+      "rank": 1,
+      "query": "What ECG findings indicate conduction disturbances?",
+      "source": "ecg-book-general.pdf",
+      "page": 64,
+      "superclass": "GENERAL",
+      "distance": 0.6520811319351196,
+      "text": "2 Reminders REMINDERS CONDUCTION AND ITS EFFECTS ON THE ECG ∑ Depolarization normally begins in the SA ∑ The ECG pattern of RBBB and LBBB can be ECG node, and spreads to the ventricles via the worked out if you remember that: IP AV node, the His bundle, the right and left – the septum is depolarized first from left branches of the His bundle, and the anterior to right For more on and posterior fascicles of the left bundle conduction branch. – lead V 1 looks at the right ventricle and problems, see lead V at the left ventricle pp.85–95 ∑ A conduction abnormality can develop at 6 – when depolarization spreads towards any of these points. an electrode the stylus moves upwards. ∑ Conduction problems in the AV node and ∑ If you can’t remember all this, remember His bundle may be partial (first and second that RBBB has an RSR1pattern in lead degree block) or complete (third degree ECG V , while LBBB has a letter ‘M’ pattern in block). 1 IP lead V . ∑ If conduction is normal through the ∑ Block o 6 f the anterior division or fascicle For more on AV node, the His bundle and one of its treatment of of the left bundle branch causes left axis branches, but is abnormal in the other conduction deviation. branch, bundle branch block exists and problems with pacemakers, see the QRS complex is wide. pp.187–206 55"
+    },
+    {
+      "rank": 2,
+      "query": "What ECG findings indicate conduction disturbances?",
+      "source": "ecg-book-general.pdf",
+      "page": 183,
+      "superclass": "GENERAL",
+      "distance": 0.7343719005584717,
+      "text": "8 Now test yourself ECGs with clinical scenarios 179 3. Look at all the leads, and describe the ECG in the same order every time: ECG descriptions and interpretations 185 rate and rhythm – conduction – PR interval if sinus rhythm You should now be able to recognize the – cardiac axis common ECG patterns, and this final chapter – QRS complexes: contains ten 12-lead records for you to interpret. ∑ duration But do not forget two important things: first, ∑ height of R and S waves an ECG comes from an individual patient and ∑ presence of Q waves must be interpreted with the patient in mind, – ST segments and second, there is little point in recording – T waves. and interpreting an ECG unless you are 4. The range of normality, and especially prepared to take some action based on your which leads can show an inverted T wave in findings. This is a theme developed in the a normal ECG. companion to this book, 150 ECG Problems. When reporting an ECG, remember: Only after carefully thinking about every aspect of the ECG pattern, and the patient’s 1. The ECG is easy. history, should you make a diagnosis. You may 2. A report has two parts – a description and find the Reminders displayed below helpful. an interpretation. 174"
+    },
+    {
+      "rank": 3,
+      "query": "What ECG findings indicate conduction disturbances?",
+      "source": "ecg-book-general.pdf",
+      "page": 188,
+      "superclass": "GENERAL",
+      "distance": 0.7694289684295654,
+      "text": "8 ECGs with clinical scenarios earlier in this book. With each there is a short ECGsWITH CLINICAL SCENARIOS clinical scenario, and their descriptions and interpretations commence on p.185. The following ECGs (1–10) are in no particular sequence, and similar ECGs have been described ECG 1 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II ECG from a 20-year-old female student with nonspecific chest pain; no abnormalities on examination 179"
+    }
+  ],
+  "HYP": [
+    {
+      "rank": 1,
+      "query": "What ECG findings are associated with cardiac hypertrophy?",
+      "source": "aha_part5_HYP.pdf",
+      "page": 1,
+      "superclass": "HYP",
+      "distance": 0.6031680107116699,
+      "text": "AHA/ACCF/HRS Scientific Statement AHA/ACCF/HRS Recommendations for the Standardization and Interpretation of the Electrocardiogram Part V: Electrocardiogram Changes Associated With Cardiac Chamber Hypertrophy A Scientific Statement From the American Heart Association Electrocardiography and Arrhythmias Committee, Council on Clinical Cardiology; the American College of Cardiology Foundation; and the Heart Rhythm Society Endorsed by the International Society for Computerized Electrocardiology E. William Hancock, MD, FACC; Barbara J. Deal, MD, FACC; David M. Mirvis, MD; Peter Okin, MD, FACC; Paul Kligfield, MD, FAHA, FACC; Leonard S. Gettes, MD, FAHA, FACC The detection and assessment of cardiac chamber hyper- hypertrophy.Itisdoubtfulwhetherenlargementoccurswith- trophy has long been an important objective of clinical out hypertrophy, at least in chronic stable syndromes. As electrocardiography. Its importance has increased in recent discussedbelow,distinctiveP-waveabnormalitiesmayoccur years with the recognition that hypertrophy can be reversed in the absence of atrial hypertrophy or dilation.) withtherapy,andthatbydoingso,adverseclinicaloutcomes Theprincipalelectrocardiogram(ECG)changesassociated can be prevented or delayed.1,2 withventricularhypertrophyareincreasesinQRSamplitude (Note: This report uses the term hypertrophy rather than and duration, changes in instantaneous and mean QRS enlargement. The 1978 Bethesda Conference favored use of vectors, abnormalities in the ST segment and T waves, and the term enlargement, but hypertrophy is more commonly abnormalities in the P wave. These changes have been used in recent research reports, although not necessarily in correlated with direct or indirect assessments of ventricular textbooks.Enlargementmaybetakentoimplyanincreasein size or mass to establish electrocardiographic criteria for the chamber dimension, which may not be present in concentric diagnosis of hypertrophy. OthermembersoftheStandardizationandInterpretationoftheElectrocardiogramWritingGroupincludeJamesJ.Bailey,MD;RoryChilders,MD; AntonGorgels,MD;MarkJosephson,MD,FACC,FHRS;JanA.Kors,PhD;PeterMacfarlane,DSc;JayW.Mason,MD,FAHA,FACC,FHRS;Olle Pahlm,MD,PhD;PenttiM.Rautaharju,MD,PhD;BorysSurawicz,MD,FAHA,FACC;GerardvanHerpen,MD,PhD;GalenS.Wagner,MD;andHein Wellens,MD,FAHA,FACC. TheAmericanHeartAssociation,theAmericanCollegeofCardiology,andtheHeartRhythmSocietymakeeveryefforttoavoidanyactualorpotential conflictsofinterestthatmayariseasaresultofanoutsiderelationshiporapersonal,professional,orbusinessinterestofamemberofthewritingpanel. Specifically,allmembersofthewritinggrouparerequiredtocompleteandsubmitaDisclosureQuestionnaireshowingallsuchrelationshipsthatmight beperceivedasrealorpotentialconflictsofinterest. PartsIandIIofthisseries,“RecommendationsfortheStandardizationandInterpretationoftheElectrocardiogram,”werepublishedintheMarch13,2007, issueofCirculation(Circulation.2007;115:1306–1324and1325–1332).Theyareavailableonlineathttp://circ.ahajournals.org/content/vol115/issue10/ Parts III, IV, V, and VI of this series are available online at http://circ.ahajournals.org/content/vol119/issue10/ (Circulation. 2009;119:e235–e240; e241–e250;e251–e261;ande262–e270).TheyalsopublishedaheadofprintFebruary19,2009. ThisstatementwasapprovedbytheAmericanHeartAssociationScienceAdvisoryandCoordinatingCommitteeonAugust7,2008,bytheAmerican CollegeofCardiologyBoardofTrusteesonMay16,2008,andbytheHeartRhythmSocietyonJune18,2008. TheAmericanHeartAssociationrequeststhatthisdocumentbecitedasfollows:HancockEW,DealBJ,MirvisDM,OkinP,KligfieldP,GettesLS. AHA/ACCF/HRSrecommendationsforthestandardizationandinterpretationoftheelectrocardiogram,partV:electrocardiogramchangesassociated withcardiacchamberhypertrophy:ascientificstatementfromtheAmericanHeartAssociationElectrocardiographyandArrhythmiasCommittee,Council onClinicalCardiology;theAmericanCollegeofCardiologyFoundation;andtheHeartRhythmSociety.Circulation.2009;119:e251–e261. ThisarticlehasbeencopublishedintheJournaloftheAmericanCollegeofCardiology. Copies:ThisdocumentisavailableontheWorldWideWebsitesoftheAmericanHeartAssociation(my.americanheart.org),theAmericanCollege ofCardiology(www.acc.org),andtheHeartRhythmSociety(www.hrsonline.org).Acopyofthedocumentisalsoavailableathttp://www.americanheart. org/presenter.jhtml?identifier(cid:1)3003999by selecting either the “topic list” link or the “chronological list” link (No. LS-1888). To purchase additional reprints,call843-216-2533ore-mailkelle.ramsay@wolterskluwer.com. ExpertpeerreviewofAHAScientificStatementsisconductedattheAHANationalCenter.FormoreonAHAstatementsandguidelinesdevelopment, visithttp://www.americanheart.org/presenter.jhtml?identifier(cid:1)3023366. Permissions: Multiple copies, modification, alteration, enhancement, and/or"
+    },
+    {
+      "rank": 2,
+      "query": "What ECG findings are associated with cardiac hypertrophy?",
+      "source": "ecg-book-general.pdf",
+      "page": 156,
+      "superclass": "GENERAL",
+      "distance": 0.6306020021438599,
+      "text": "6 The ECG in patients with breathlessness Box 6.3 Causes of breathlessness THE ECG IN PATIENTS WITH BREATHLESSNESS ∑ Lack of physical fitness ∑ Obesity Some causes of breathlessness are summarized ∑ Heart failure in Box 6.3. ∑ Lung disease ∑ Anaemia ∑ Neuromuscular disorders BREATHLESSNESS DUE TO HEART DISEASE ∑ Chest wall pain Remember that, although no particular ECG pattern corresponds to heart failure, this condition is unlikely with a completely normal ECG – other explanations for breathlessness should be considered. ECG evidence of cardiac When the ECG of a breathless patient shows enlargement may point to the cause of an arrhythmia or a conduction abnormality, or breathlessness. For example, ECG evidence evidence of ischaemia or of atrial or ventricular of left ventricular hypertrophy may be due to hypertrophy, then the breathlessness may be hypertension or to mitral or aortic valve disease. due to heart failure. REMINDERS CARDIAC HYPERTROPHY Right atrial hypertrophy Left atrial hypertrophy ∑ Peaked P waves. ∑ Bifid P waves. Right ventricular hypertrophy Left ventricular hypertrophy ∑ Tall R waves in lead V . ∑ R waves in lead V or V greater than 25mm. 1 5 6 ∑ T wave inversion in leads V and V , and ∑ R waves in lead V or V plus S waves in lead 1 2 5 6 sometimes in V and even V . V or V greater than 35mm. 3 4 1 2 ∑ Deep S waves in lead V . ∑ Inverted T waves in leads I, VL, V –V and, 6 5 6 ∑ Right axis deviation. sometimes, V 4 . ∑ Sometimes, right bundle branch block. 147"
+    },
+    {
+      "rank": 3,
+      "query": "What ECG findings are associated with cardiac hypertrophy?",
+      "source": "ecg-book-general.pdf",
+      "page": 176,
+      "superclass": "GENERAL",
+      "distance": 0.6660178899765015,
+      "text": "7 The ECG when the patient has symptoms Fig. 7.11 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Ventricular tachycardia Note ∑ Regular broad complex tachycardia, rate 200/min ∑ No P waves visible ∑ Left axis deviation ∑ QRS complex duration 180ms (if >160ms, the rhythm is more likely to be ventricular in origin than to be supraventricular with bundle branch block) ∑ QRS complexes all point the same way (upwards) in the chest leads (again, makes a ventricular origin likely) 167"
+    }
+  ],
+  "NORM": [
+    {
+      "rank": 1,
+      "query": "What are the characteristics of a normal ECG?",
+      "source": "ecg-book-general.pdf",
+      "page": 44,
+      "superclass": "GENERAL",
+      "distance": 0.547634482383728,
+      "text": "a normal variants of the ECG, vertical plane. see Ch. 1 35"
+    },
+    {
+      "rank": 2,
+      "query": "What are the characteristics of a normal ECG?",
+      "source": "ecg-book-general.pdf",
+      "page": 183,
+      "superclass": "GENERAL",
+      "distance": 0.5953420400619507,
+      "text": "8 Now test yourself ECGs with clinical scenarios 179 3. Look at all the leads, and describe the ECG in the same order every time: ECG descriptions and interpretations 185 rate and rhythm – conduction – PR interval if sinus rhythm You should now be able to recognize the – cardiac axis common ECG patterns, and this final chapter – QRS complexes: contains ten 12-lead records for you to interpret. ∑ duration But do not forget two important things: first, ∑ height of R and S waves an ECG comes from an individual patient and ∑ presence of Q waves must be interpreted with the patient in mind, – ST segments and second, there is little point in recording – T waves. and interpreting an ECG unless you are 4. The range of normality, and especially prepared to take some action based on your which leads can show an inverted T wave in findings. This is a theme developed in the a normal ECG. companion to this book, 150 ECG Problems. When reporting an ECG, remember: Only after carefully thinking about every aspect of the ECG pattern, and the patient’s 1. The ECG is easy. history, should you make a diagnosis. You may 2. A report has two parts – a description and find the Reminders displayed below helpful. an interpretation. 174"
+    },
+    {
+      "rank": 3,
+      "query": "What are the characteristics of a normal ECG?",
+      "source": "ecg-book-general.pdf",
+      "page": 8,
+      "superclass": "GENERAL",
+      "distance": 0.6276857852935791,
+      "text": "1 Contents Part I: The Basics 1. What the ECG is about 3 2. Conduction and its problems 36 3. The rhythm of the heart 56 4. Abnormalities of P waves, QRS complexes and T waves 85 Part II: Making the most of the ECG 5. The ECG in healthy subjects 105 6. The ECG in patients with chest pain or breathlessness 128 7. The ECG in patients with palpitations or syncope 151 8. Now test yourself 174 Index 194 vii"
+    }
+  ]
+}

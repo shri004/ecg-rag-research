@@ -1,0 +1,163 @@
+{
+  "MI": {
+    "query": "What ECG findings are associated with myocardial infarction?",
+    "top_3_relevant": 2,
+    "precision_at_3": 0.6666666666666666,
+    "results": [
+      {
+        "rank": 1,
+        "source": "ecg-book-general.pdf",
+        "page": 138,
+        "superclass": "GENERAL",
+        "distance": 0.5981839895248413,
+        "relevant": 1
+      },
+      {
+        "rank": 2,
+        "source": "ecg-book-general.pdf",
+        "page": 139,
+        "superclass": "GENERAL",
+        "distance": 0.7189738154411316,
+        "relevant": 1
+      },
+      {
+        "rank": 3,
+        "source": "ecg-book-general.pdf",
+        "page": 12,
+        "superclass": "GENERAL",
+        "distance": 0.721747636795044,
+        "relevant": 0
+      }
+    ]
+  },
+  "STTC": {
+    "query": "What ECG changes are associated with ST segment and T wave abnormalities?",
+    "top_3_relevant": 3,
+    "precision_at_3": 1.0,
+    "results": [
+      {
+        "rank": 1,
+        "source": "ecg-book-general.pdf",
+        "page": 132,
+        "superclass": "GENERAL",
+        "distance": 0.5058237314224243,
+        "relevant": 1
+      },
+      {
+        "rank": 2,
+        "source": "ecg-book-general.pdf",
+        "page": 105,
+        "superclass": "GENERAL",
+        "distance": 0.5244470834732056,
+        "relevant": 1
+      },
+      {
+        "rank": 3,
+        "source": "ecg-book-general.pdf",
+        "page": 107,
+        "superclass": "GENERAL",
+        "distance": 0.5353114604949951,
+        "relevant": 1
+      }
+    ]
+  },
+  "CD": {
+    "query": "What ECG findings indicate conduction disturbances?",
+    "top_3_relevant": 2,
+    "precision_at_3": 0.6666666666666666,
+    "results": [
+      {
+        "rank": 1,
+        "source": "ecg-book-general.pdf",
+        "page": 64,
+        "superclass": "GENERAL",
+        "distance": 0.6520811319351196,
+        "relevant": 1
+      },
+      {
+        "rank": 2,
+        "source": "ecg-book-general.pdf",
+        "page": 183,
+        "superclass": "GENERAL",
+        "distance": 0.7343719005584717,
+        "relevant": 1
+      },
+      {
+        "rank": 3,
+        "source": "ecg-book-general.pdf",
+        "page": 188,
+        "superclass": "GENERAL",
+        "distance": 0.7694289684295654,
+        "relevant": 0
+      }
+    ]
+  },
+  "HYP": {
+    "query": "What ECG findings are associated with cardiac hypertrophy?",
+    "top_3_relevant": 1,
+    "precision_at_3": 0.3333333333333333,
+    "results": [
+      {
+        "rank": 1,
+        "source": "aha_part5_HYP.pdf",
+        "page": 1,
+        "superclass": "HYP",
+        "distance": 0.6031680107116699,
+        "relevant": 1
+      },
+      {
+        "rank": 2,
+        "source": "ecg-book-general.pdf",
+        "page": 156,
+        "superclass": "GENERAL",
+        "distance": 0.6306020021438599,
+        "relevant": 0
+      },
+      {
+        "rank": 3,
+        "source": "ecg-book-general.pdf",
+        "page": 176,
+        "superclass": "GENERAL",
+        "distance": 0.6660178899765015,
+        "relevant": 0
+      }
+    ]
+  },
+  "NORM": {
+    "query": "What are the characteristics of a normal ECG?",
+    "top_3_relevant": 0,
+    "precision_at_3": 0.0,
+    "results": [
+      {
+        "rank": 1,
+        "source": "ecg-book-general.pdf",
+        "page": 44,
+        "superclass": "GENERAL",
+        "distance": 0.547634482383728,
+        "relevant": 0
+      },
+      {
+        "rank": 2,
+        "source": "ecg-book-general.pdf",
+        "page": 183,
+        "superclass": "GENERAL",
+        "distance": 0.5953420400619507,
+        "relevant": 0
+      },
+      {
+        "rank": 3,
+        "source": "ecg-book-general.pdf",
+        "page": 8,
+        "superclass": "GENERAL",
+        "distance": 0.6276857852935791,
+        "relevant": 0
+      }
+    ]
+  },
+  "overall": {
+    "queries": 5,
+    "retrieved_results": 15,
+    "relevant_results": 8,
+    "precision_at_3": 0.5333333333333333
+  }
+}

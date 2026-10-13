@@ -1,0 +1,25 @@
+{
+  "per_source": {
+    "aha_part3_CD.pdf": {
+      "flagged": 3,
+      "total": 12
+    },
+    "aha_part4_STTC.pdf": {
+      "flagged": 5,
+      "total": 24
+    },
+    "aha_part5_HYP.pdf": {
+      "flagged": 7,
+      "total": 28
+    },
+    "aha_part6_MI.pdf": {
+      "flagged": 5,
+      "total": 21
+    },
+    "ecg-book-general.pdf": {
+      "flagged": 2,
+      "total": 267
+    }
+  },
+  "exclude_sha256": "117e43b18f94eb12a4221ee36de17903b918f5017cd95f2ee4346e715f25e9fe"
+}

@@ -1,0 +1,30 @@
+
+{
+  "HYP": {
+    "queries": [
+      "What ECG voltage criteria and measurements are used to identify left ventricular hypertrophy?",
+      "What ECG findings support right ventricular or left ventricular hypertrophy?"
+    ],
+    "keywords": [
+      "Sokolow",
+      "Cornell",
+      "voltage",
+      "hypertrophy",
+      "R wave",
+      "S wave"
+    ]
+  },
+  "NORM": {
+    "queries": [
+      "What are the normal ECG intervals, including PR interval, QRS duration, and QT interval?",
+      "What ECG characteristics define normal sinus rhythm, normal axis, and normal conduction?"
+    ],
+    "keywords": [
+      "PR interval",
+      "QRS duration",
+      "QT interval",
+      "sinus rhythm",
+      "normal axis"
+    ]
+  }
+}

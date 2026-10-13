@@ -1,0 +1,791 @@
+{
+  "HYP": {
+    "coverage": {
+      "Sokolow": {
+        "n_chunks_containing": 9,
+        "sources_pages": [
+          [
+            "aha_part5_HYP.pdf",
+            10
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            2
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            3
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            6
+          ],
+          [
+            "ecg-book-general.pdf",
+            127
+          ],
+          [
+            "ecg-book-general.pdf",
+            208
+          ]
+        ]
+      },
+      "Cornell": {
+        "n_chunks_containing": 9,
+        "sources_pages": [
+          [
+            "aha_part3_CD.pdf",
+            4
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            8
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            2
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            3
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            8
+          ],
+          [
+            "aha_part6_MI.pdf",
+            7
+          ]
+        ]
+      },
+      "voltage": {
+        "n_chunks_containing": 28,
+        "sources_pages": [
+          [
+            "aha_part4_STTC.pdf",
+            1
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            2
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            3
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            10
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            11
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            2
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            3
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            4
+          ]
+        ]
+      },
+      "hypertrophy": {
+        "n_chunks_containing": 72,
+        "sources_pages": [
+          [
+            "aha_part3_CD.pdf",
+            1
+          ],
+          [
+            "aha_part3_CD.pdf",
+            3
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            2
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            3
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            4
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            1
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            10
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            11
+          ]
+        ]
+      },
+      "R wave": {
+        "n_chunks_containing": 46,
+        "sources_pages": [
+          [
+            "aha_part3_CD.pdf",
+            2
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            4
+          ],
+          [
+            "aha_part6_MI.pdf",
+            5
+          ],
+          [
+            "ecg-book-general.pdf",
+            101
+          ],
+          [
+            "ecg-book-general.pdf",
+            104
+          ],
+          [
+            "ecg-book-general.pdf",
+            123
+          ],
+          [
+            "ecg-book-general.pdf",
+            125
+          ],
+          [
+            "ecg-book-general.pdf",
+            127
+          ]
+        ]
+      },
+      "S wave": {
+        "n_chunks_containing": 50,
+        "sources_pages": [
+          [
+            "aha_part5_HYP.pdf",
+            4
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            5
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            6
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            7
+          ],
+          [
+            "ecg-book-general.pdf",
+            100
+          ],
+          [
+            "ecg-book-general.pdf",
+            102
+          ],
+          [
+            "ecg-book-general.pdf",
+            123
+          ],
+          [
+            "ecg-book-general.pdf",
+            125
+          ]
+        ]
+      }
+    },
+    "queries": [
+      {
+        "query": "What ECG voltage criteria and measurements are used to identify left ventricular hypertrophy?",
+        "top_n_tag_mix": {
+          "HYP": 5,
+          "GENERAL": 4,
+          "STTC": 1
+        },
+        "first_rank_of_keyword_in_full_ranking": {
+          "Sokolow": 1,
+          "Cornell": 1,
+          "voltage": 1,
+          "hypertrophy": 1,
+          "R wave": 2,
+          "S wave": 2
+        },
+        "top": [
+          {
+            "rank": 1,
+            "source": "aha_part5_HYP.pdf",
+            "page": 2,
+            "tag": "HYP",
+            "distance": 0.6529,
+            "snippet": "body habitus. Their effects may contribute to the limited ical developments. accuracy of the ECG criteria. Day-to-day variability and Left Ventricular Hypertrop"
+          },
+          {
+            "rank": 2,
+            "source": "ecg-book-general.pdf",
+            "page": 162,
+            "tag": "GENERAL",
+            "distance": 0.6543,
+            "snippet": "7 The ECG when the patient has no symptoms Fig. 7.2 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Hypertrophic cardiomyopathy Note \u2211 Sinus rhythm, rate 70/min \u2211 "
+          },
+          {
+            "rank": 3,
+            "source": "ecg-book-general.pdf",
+            "page": 176,
+            "tag": "GENERAL",
+            "distance": 0.6684,
+            "snippet": "7 The ECG when the patient has symptoms Fig. 7.11 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Ventricular tachycardia Note \u2211 Regular broad complex tachycardia,"
+          },
+          {
+            "rank": 4,
+            "source": "aha_part5_HYP.pdf",
+            "page": 5,
+            "tag": "HYP",
+            "distance": 0.6849,
+            "snippet": "exclusion, which were examined but not found to be was considered to reflect ventricular overwork but not nec- abnormal). essarily hypertrophy. Its use should a"
+          },
+          {
+            "rank": 5,
+            "source": "aha_part5_HYP.pdf",
+            "page": 5,
+            "tag": "HYP",
+            "distance": 0.6852,
+            "snippet": "Hancock et al Standardization and Interpretation of the ECG, Part V e255 highspecificityforLVHinthepresenceofLBBB.Inpatients normal voltage limits. When the hig"
+          },
+          {
+            "rank": 6,
+            "source": "aha_part5_HYP.pdf",
+            "page": 11,
+            "tag": "HYP",
+            "distance": 0.6905,
+            "snippet": "MehtaA,JainAC,MehtaMC,BillieM.Usefulnessofleftatrialabnor- LeadsandMultipleUnipolarPrecordialLeads,andaSectiononCardiac malityforpredictingleftventricularhypert"
+          },
+          {
+            "rank": 7,
+            "source": "ecg-book-general.pdf",
+            "page": 127,
+            "tag": "GENERAL",
+            "distance": 0.6999,
+            "snippet": "The ECG in healthy subjects The height of the QRS complex is related to One ECG feature of left ventricular the thickness of heart muscle, but is actually a hyp"
+          },
+          {
+            "rank": 8,
+            "source": "aha_part4_STTC.pdf",
+            "page": 1,
+            "tag": "STTC",
+            "distance": 0.716,
+            "snippet": "AHA/ACCF/HRS Scientific Statement AHA/ACCF/HRS Recommendations for the Standardization and Interpretation of the Electrocardiogram Part IV: The ST Segment, T an"
+          },
+          {
+            "rank": 9,
+            "source": "aha_part5_HYP.pdf",
+            "page": 6,
+            "tag": "HYP",
+            "distance": 0.728,
+            "snippet": "vector toward the right and anteriorly and often S(cid:3)RinI,II,III Present causes a delay in the R-wave peak in right precordial leads. SIandQIII Present Howe"
+          },
+          {
+            "rank": 10,
+            "source": "ecg-book-general.pdf",
+            "page": 100,
+            "tag": "GENERAL",
+            "distance": 0.7336,
+            "snippet": "4 Abnormalities of the QRS complex unhelpful in diagnosing left ventricular Fig. 4.7 enlargement. With significant hypertrophy, The origin of Q waves there are "
+          }
+        ]
+      },
+      {
+        "query": "What ECG findings support right ventricular or left ventricular hypertrophy?",
+        "top_n_tag_mix": {
+          "GENERAL": 7,
+          "HYP": 3
+        },
+        "first_rank_of_keyword_in_full_ranking": {
+          "Sokolow": 1,
+          "Cornell": 65,
+          "voltage": 2,
+          "hypertrophy": 1,
+          "R wave": 1,
+          "S wave": 3
+        },
+        "top": [
+          {
+            "rank": 1,
+            "source": "ecg-book-general.pdf",
+            "page": 127,
+            "tag": "GENERAL",
+            "distance": 0.6639,
+            "snippet": "The ECG in healthy subjects The height of the QRS complex is related to One ECG feature of left ventricular the thickness of heart muscle, but is actually a hyp"
+          },
+          {
+            "rank": 2,
+            "source": "aha_part5_HYP.pdf",
+            "page": 11,
+            "tag": "HYP",
+            "distance": 0.6672,
+            "snippet": "MehtaA,JainAC,MehtaMC,BillieM.Usefulnessofleftatrialabnor- LeadsandMultipleUnipolarPrecordialLeads,andaSectiononCardiac malityforpredictingleftventricularhypert"
+          },
+          {
+            "rank": 3,
+            "source": "ecg-book-general.pdf",
+            "page": 162,
+            "tag": "GENERAL",
+            "distance": 0.6811,
+            "snippet": "7 The ECG when the patient has no symptoms Fig. 7.2 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Hypertrophic cardiomyopathy Note \u2211 Sinus rhythm, rate 70/min \u2211 "
+          },
+          {
+            "rank": 4,
+            "source": "ecg-book-general.pdf",
+            "page": 176,
+            "tag": "GENERAL",
+            "distance": 0.6868,
+            "snippet": "7 The ECG when the patient has symptoms Fig. 7.11 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Ventricular tachycardia Note \u2211 Regular broad complex tachycardia,"
+          },
+          {
+            "rank": 5,
+            "source": "ecg-book-general.pdf",
+            "page": 159,
+            "tag": "GENERAL",
+            "distance": 0.7116,
+            "snippet": "The ECG in patients with chest pain or breathlessness Chronic lung disease but there may be right axis deviation and, Chronic obstructive pulmonary disease, mor"
+          },
+          {
+            "rank": 6,
+            "source": "ecg-book-general.pdf",
+            "page": 156,
+            "tag": "GENERAL",
+            "distance": 0.7358,
+            "snippet": "6 The ECG in patients with breathlessness Box 6.3 Causes of breathlessness THE ECG IN PATIENTS WITH BREATHLESSNESS \u2211 Lack of physical fitness \u2211 Obesity Some cau"
+          },
+          {
+            "rank": 7,
+            "source": "aha_part5_HYP.pdf",
+            "page": 11,
+            "tag": "HYP",
+            "distance": 0.7403,
+            "snippet": "Hancock et al Standardization and Interpretation of the ECG, Part V e261 31. OkinPM,DevereuxRB,NieminenMS,etal.Electrocardiographicstrain 55. Lehtonen J, Sutine"
+          },
+          {
+            "rank": 8,
+            "source": "ecg-book-general.pdf",
+            "page": 150,
+            "tag": "GENERAL",
+            "distance": 0.743,
+            "snippet": "6 The ECG in patients with constant chest pain Fig. 6.11 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Old posterior myocardial infarction Note \u2211 Sinus rhythm, r"
+          },
+          {
+            "rank": 9,
+            "source": "ecg-book-general.pdf",
+            "page": 100,
+            "tag": "GENERAL",
+            "distance": 0.7499,
+            "snippet": "4 Abnormalities of the QRS complex unhelpful in diagnosing left ventricular Fig. 4.7 enlargement. With significant hypertrophy, The origin of Q waves there are "
+          },
+          {
+            "rank": 10,
+            "source": "aha_part5_HYP.pdf",
+            "page": 6,
+            "tag": "HYP",
+            "distance": 0.7627,
+            "snippet": "vector toward the right and anteriorly and often S(cid:3)RinI,II,III Present causes a delay in the R-wave peak in right precordial leads. SIandQIII Present Howe"
+          }
+        ]
+      }
+    ]
+  },
+  "NORM": {
+    "coverage": {
+      "PR interval": {
+        "n_chunks_containing": 39,
+        "sources_pages": [
+          [
+            "ecg-book-general.pdf",
+            120
+          ],
+          [
+            "ecg-book-general.pdf",
+            121
+          ],
+          [
+            "ecg-book-general.pdf",
+            123
+          ],
+          [
+            "ecg-book-general.pdf",
+            136
+          ],
+          [
+            "ecg-book-general.pdf",
+            146
+          ],
+          [
+            "ecg-book-general.pdf",
+            149
+          ],
+          [
+            "ecg-book-general.pdf",
+            15
+          ],
+          [
+            "ecg-book-general.pdf",
+            16
+          ]
+        ]
+      },
+      "QRS duration": {
+        "n_chunks_containing": 16,
+        "sources_pages": [
+          [
+            "aha_part3_CD.pdf",
+            2
+          ],
+          [
+            "aha_part3_CD.pdf",
+            3
+          ],
+          [
+            "aha_part3_CD.pdf",
+            4
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            2
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            5
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            6
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            2
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            3
+          ]
+        ]
+      },
+      "QT interval": {
+        "n_chunks_containing": 24,
+        "sources_pages": [
+          [
+            "aha_part4_STTC.pdf",
+            1
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            2
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            5
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            6
+          ],
+          [
+            "aha_part4_STTC.pdf",
+            7
+          ],
+          [
+            "aha_part5_HYP.pdf",
+            4
+          ],
+          [
+            "ecg-book-general.pdf",
+            110
+          ],
+          [
+            "ecg-book-general.pdf",
+            111
+          ]
+        ]
+      },
+      "sinus rhythm": {
+        "n_chunks_containing": 95,
+        "sources_pages": [
+          [
+            "ecg-book-general.pdf",
+            101
+          ],
+          [
+            "ecg-book-general.pdf",
+            102
+          ],
+          [
+            "ecg-book-general.pdf",
+            103
+          ],
+          [
+            "ecg-book-general.pdf",
+            104
+          ],
+          [
+            "ecg-book-general.pdf",
+            108
+          ],
+          [
+            "ecg-book-general.pdf",
+            109
+          ],
+          [
+            "ecg-book-general.pdf",
+            114
+          ],
+          [
+            "ecg-book-general.pdf",
+            116
+          ]
+        ]
+      },
+      "normal axis": {
+        "n_chunks_containing": 33,
+        "sources_pages": [
+          [
+            "ecg-book-general.pdf",
+            101
+          ],
+          [
+            "ecg-book-general.pdf",
+            103
+          ],
+          [
+            "ecg-book-general.pdf",
+            104
+          ],
+          [
+            "ecg-book-general.pdf",
+            109
+          ],
+          [
+            "ecg-book-general.pdf",
+            131
+          ],
+          [
+            "ecg-book-general.pdf",
+            132
+          ],
+          [
+            "ecg-book-general.pdf",
+            133
+          ],
+          [
+            "ecg-book-general.pdf",
+            134
+          ]
+        ]
+      }
+    },
+    "queries": [
+      {
+        "query": "What are the normal ECG intervals, including PR interval, QRS duration, and QT interval?",
+        "top_n_tag_mix": {
+          "GENERAL": 9,
+          "STTC": 1
+        },
+        "first_rank_of_keyword_in_full_ranking": {
+          "PR interval": 1,
+          "QRS duration": 26,
+          "QT interval": 1,
+          "sinus rhythm": 6,
+          "normal axis": 4
+        },
+        "top": [
+          {
+            "rank": 1,
+            "source": "ecg-book-general.pdf",
+            "page": 16,
+            "tag": "GENERAL",
+            "distance": 0.4408,
+            "snippet": "1 The different parts of the ECG Fig. 1.5 Table 1.1 Relationship between the number of large squares between successive R waves and The components of the ECG co"
+          },
+          {
+            "rank": 2,
+            "source": "ecg-book-general.pdf",
+            "page": 15,
+            "tag": "GENERAL",
+            "distance": 0.5257,
+            "snippet": "What the ECGis about TIMES AND SPEEDS different parts of the P\u2013QRS\u2013T complex shows the time taken for conduction of the electrical ECG machines record changes i"
+          },
+          {
+            "rank": 3,
+            "source": "ecg-book-general.pdf",
+            "page": 17,
+            "tag": "GENERAL",
+            "distance": 0.5702,
+            "snippet": "What the ECGis about Fig. 1.7 Normal PR interval and prolonged QRS complex PR QRS 0.16 s (160 ms) 0.20 s (200 ms) squares) or less, but any abnormality of Fig. "
+          },
+          {
+            "rank": 4,
+            "source": "ecg-book-general.pdf",
+            "page": 136,
+            "tag": "GENERAL",
+            "distance": 0.5931,
+            "snippet": "5 Reminders REMINDERS THE NORMAL ECG Limits of normal durations QRS complex \u2211 PR interval: 220ms. \u2211 Small Q waves are normal in leads I, VL and \u2211 QRS complex du"
+          },
+          {
+            "rank": 5,
+            "source": "aha_part4_STTC.pdf",
+            "page": 6,
+            "tag": "STTC",
+            "distance": 0.6084,
+            "snippet": "e246 Circulation March 17, 2009 Recommendation particularlyonthetypeofQT-adjustmentfunctionused.Itis It is recommended that selective subsets of temporally impo"
+          },
+          {
+            "rank": 6,
+            "source": "ecg-book-general.pdf",
+            "page": 198,
+            "tag": "GENERAL",
+            "distance": 0.6257,
+            "snippet": "8 ECG descriptions and interpretations Interpretation of the ECG beta-blocker, an ACE (angiotensin-converting enzyme) inhibitor and a statin. He will also need "
+          },
+          {
+            "rank": 7,
+            "source": "ecg-book-general.pdf",
+            "page": 43,
+            "tag": "GENERAL",
+            "distance": 0.6682,
+            "snippet": "What the ECGis about Fig. 1.34 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 Variant of a normal ECG Note Interpretation \u2211 Sinus rhythm, rate 75/min \u2211 Normal ECG \u2013 "
+          },
+          {
+            "rank": 8,
+            "source": "ecg-book-general.pdf",
+            "page": 183,
+            "tag": "GENERAL",
+            "distance": 0.6784,
+            "snippet": "8 Now test yourself ECGs with clinical scenarios 179 3. Look at all the leads, and describe the ECG in the same order every time: ECG descriptions and interpret"
+          },
+          {
+            "rank": 9,
+            "source": "ecg-book-general.pdf",
+            "page": 176,
+            "tag": "GENERAL",
+            "distance": 0.6944,
+            "snippet": "7 The ECG when the patient has symptoms Fig. 7.11 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Ventricular tachycardia Note \u2211 Regular broad complex tachycardia,"
+          },
+          {
+            "rank": 10,
+            "source": "ecg-book-general.pdf",
+            "page": 166,
+            "tag": "GENERAL",
+            "distance": 0.702,
+            "snippet": "7 The ECG when the patient has no symptoms Long QT interval Whatever its cause, a corrected QT interval of 500ms or longer can predispose to paroxysmal The QT i"
+          }
+        ]
+      },
+      {
+        "query": "What ECG characteristics define normal sinus rhythm, normal axis, and normal conduction?",
+        "top_n_tag_mix": {
+          "GENERAL": 10
+        },
+        "first_rank_of_keyword_in_full_ranking": {
+          "PR interval": 3,
+          "QRS duration": 56,
+          "QT interval": 40,
+          "sinus rhythm": 1,
+          "normal axis": 2
+        },
+        "top": [
+          {
+            "rank": 1,
+            "source": "ecg-book-general.pdf",
+            "page": 172,
+            "tag": "GENERAL",
+            "distance": 0.586,
+            "snippet": "7 The ECG when the patient has no symptoms Fig. 7.10 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Bifascicular block Note \u2211 Sinus rhythm, rate 70/min \u2211 Left axi"
+          },
+          {
+            "rank": 2,
+            "source": "ecg-book-general.pdf",
+            "page": 135,
+            "tag": "GENERAL",
+            "distance": 0.6074,
+            "snippet": "The ECG in healthy subjects Fig. 5.20 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Normal ECG with prominent U waves Note \u2211 The ECG appearance at the beginning "
+          },
+          {
+            "rank": 3,
+            "source": "ecg-book-general.pdf",
+            "page": 43,
+            "tag": "GENERAL",
+            "distance": 0.6244,
+            "snippet": "What the ECGis about Fig. 1.34 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 Variant of a normal ECG Note Interpretation \u2211 Sinus rhythm, rate 75/min \u2211 Normal ECG \u2013 "
+          },
+          {
+            "rank": 4,
+            "source": "ecg-book-general.pdf",
+            "page": 183,
+            "tag": "GENERAL",
+            "distance": 0.6402,
+            "snippet": "8 Now test yourself ECGs with clinical scenarios 179 3. Look at all the leads, and describe the ECG in the same order every time: ECG descriptions and interpret"
+          },
+          {
+            "rank": 5,
+            "source": "ecg-book-general.pdf",
+            "page": 44,
+            "tag": "GENERAL",
+            "distance": 0.6791,
+            "snippet": "a normal variants of the ECG, vertical plane. see Ch. 1 35"
+          },
+          {
+            "rank": 6,
+            "source": "ecg-book-general.pdf",
+            "page": 171,
+            "tag": "GENERAL",
+            "distance": 0.6889,
+            "snippet": "The ECG in patients with palpitations or syncope Fig. 7.9 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II First degree block and left bundle branch block Note \u2211 Si"
+          },
+          {
+            "rank": 7,
+            "source": "ecg-book-general.pdf",
+            "page": 194,
+            "tag": "GENERAL",
+            "distance": 0.6896,
+            "snippet": "8 ECG descriptions and interpretations If you did not get this right, look at p.32. ECG DESCRIPTIONS AND INTERPRETATIONS Clinical management ECG 1 The descripti"
+          },
+          {
+            "rank": 8,
+            "source": "ecg-book-general.pdf",
+            "page": 148,
+            "tag": "GENERAL",
+            "distance": 0.6984,
+            "snippet": "6 The ECG in patients with constant chest pain to the baseline, and the T wave in lead VL is no degree block in Figure 6.10, showing the longer inverted. During"
+          },
+          {
+            "rank": 9,
+            "source": "ecg-book-general.pdf",
+            "page": 176,
+            "tag": "GENERAL",
+            "distance": 0.7129,
+            "snippet": "7 The ECG when the patient has symptoms Fig. 7.11 I VR V V 1 4 II VL V V 2 5 III VF V V 3 6 II Ventricular tachycardia Note \u2211 Regular broad complex tachycardia,"
+          },
+          {
+            "rank": 10,
+            "source": "ecg-book-general.pdf",
+            "page": 66,
+            "tag": "GENERAL",
+            "distance": 0.7136,
+            "snippet": "3 The intrinsic rhythmicity of the heart \u2211 The width of the QRS complexes (should sequence began. The SA node normally has the be 120ms or less). highest freque"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -44,3 +44,14 @@ logs/
 
 # ---- Clinician-provided data (PHI risk — never commit) ----
 eval/clinician/raw_annotations/
+
+
+# ---- Local vector DB backups ----
+vectordb_backup_*/
+
+# ---- Copyrighted/reference PDFs kept locally ----
+kb/raw_guidelines/*.pdf
+
+# ---- Local retrieval evaluation work (may contain extracted text) ----
+eval/retrieval/work/
+results/module2/runs/

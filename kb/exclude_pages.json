@@ -1,0 +1,15 @@
+
+{
+  "_note": "Pages excluded from cleaned retrieval experiments because they are front matter, blank, or index pages. Page numbers are 1-indexed PDF pages and match Chroma metadata.",
+  "_markers": [
+    "key words",
+    "writing group disclosures",
+    "all rights reserved",
+    "isbn"
+  ],
+  "aha_part3_CD.pdf": [1],
+  "aha_part4_STTC.pdf": [1],
+  "aha_part5_HYP.pdf": [1],
+  "aha_part6_MI.pdf": [1],
+  "ecg-book-general.pdf": [113, 203, 204, 205, 206, 207, 208]
+}

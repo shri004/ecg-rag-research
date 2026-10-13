@@ -1,0 +1,28 @@
+{
+  "_status": "DRAFT. Edit now, then COMMIT BEFORE running any arm. After the first run these are FROZEN: if you edit one after seeing results, it becomes a dev query and needs a replacement. Mix of named-criterion and plain-language phrasing on purpose.",
+  "NORM": [
+    {"id": "NORM-1", "text": "normal ECG intervals PR interval QRS duration QT interval normal ranges"},
+    {"id": "NORM-2", "text": "characteristics of a normal 12-lead ECG rate rhythm axis"},
+    {"id": "NORM-3", "text": "normal sinus rhythm P wave morphology and normal QRS axis"}
+  ],
+  "MI": [
+    {"id": "MI-1", "text": "ECG changes in acute myocardial infarction ST elevation criteria"},
+    {"id": "MI-2", "text": "pathological Q waves criteria for prior myocardial infarction"},
+    {"id": "MI-3", "text": "ECG localization of myocardial infarction by leads"}
+  ],
+  "STTC": [
+    {"id": "STTC-1", "text": "ST segment depression and T wave inversion ECG interpretation"},
+    {"id": "STTC-2", "text": "causes of ST-T abnormalities and ECG criteria"},
+    {"id": "STTC-3", "text": "nonspecific ST-T wave changes definition"}
+  ],
+  "CD": [
+    {"id": "CD-1", "text": "left bundle branch block ECG criteria QRS duration"},
+    {"id": "CD-2", "text": "right bundle branch block ECG criteria"},
+    {"id": "CD-3", "text": "atrioventricular block ECG criteria PR interval prolongation"}
+  ],
+  "HYP": [
+    {"id": "HYP-1", "text": "ECG voltage criteria for left ventricular hypertrophy Sokolow-Lyon Cornell"},
+    {"id": "HYP-2", "text": "ST-T changes secondary to left ventricular hypertrophy strain pattern"},
+    {"id": "HYP-3", "text": "ECG criteria for right ventricular hypertrophy and atrial enlargement"}
+  ]
+}
